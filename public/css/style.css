@@ -1353,64 +1353,90 @@
     justify-content: center;
     margin-top: 3.1vw;
     font-family: myraid;
+
 }
-.signin form    
+
+.signin .form p
 {
-    height: fit-content;
+	color:red;
+}
+
+.signin .form 
+{
+	height: fit-content;
     font-size: 1vw;
     width: 40%;
-    text-align: center;
     color: #000;
 }
-.signin form h1
+
+.signin .form input
+{	
+	border:none;
+}
+
+.signin .heading
+{
+	height: fit-content;
+}
+.signin .form .heading h1
 {
     margin-top: 5%;
     font-size: 4vw;
     text-align: center;
     color: #fa6753;
-	letter-spacing: 1.2vw;   
+	letter-spacing: 1.25vw;   
 }
-.signin form h2
+.signin .form .heading h2
 {
     margin-top: 2%;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     text-align: center;
     color: #8a898a;
 }
-.signin form h2 a
+.signin .form .heading h2 a
 {
     text-decoration: none;
     color:  #533e99;
 }
 
-
-.signin form h6
+.signin .email
 {
-    margin-top: 5vw;
-    float: left;
-    color:  #533e99;
-    font-size: 0.9vw;
+	height: fit-content;
+
 }
 
-.signin form input
+.signin .form .email h6
+{
+    float: left;
+    margin-top: 3vw;
+    font-size: 0.9vw;
+    color:  #533e99;
+}
+
+.signin .form .email .un
 {
     width: 100%;
-    border: none;
+
     border-bottom: 0.12vw solid #808080;
-    padding-bottom: 8px;
-    margin: 0.3vw 0px 0.9vw 0px;
+    padding-bottom: 0.3vw;
     outline: none;
     font-size: 1.25vw;
 }
 
-.signin form a
+.signin .form .email a
 {
     text-decoration: none;
-    color: #533e99;
-    
+    color:#533e99;
+    float: right;
+    font-size: 0.2vw;
 }
-
-.signin form button
+.signin .submit
+{
+	height: fit-content;
+	text-align: center;
+    margin-top: 2vw;
+}
+.signin .form .submit button
 {
     
     padding: 0.6vw 3.7vw 0.6vw 3.7vw;
@@ -1419,30 +1445,34 @@
     border: none;
     background-color:#533e99 ;
     font-size: 1.8vw;
-    margin-top: 2.5vw;
-    box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 20px;
+    box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
 .signin form button:hover
 {
     background-color:#533e99 ;
     opacity: 0.8;
 }
+.signin .links
+{
+	height: fit-content;
+	text-align: center;
+}
 
-.signin form p
+.signin .form .links p
 {
     color: #8a898a;
-    font-size: 1.1vw;
-    margin-top: 1.2vw;
+    font-size: 1.12vw;
+    margin-top: 1vw;
 }
-.signin form img{
+.signin .form .links img{
     height: 2vw;
     width: 2vw;
-    margin: 0px 0.6vw 0px 0.6vw;
+    margin: 0px 0.8vw 0px 0.8vw;
 }
 
-.signin form input:focus
+.signin .form .email input:focus
 {
-    border-bottom: 0.1vw solid #533e99 ;
+    border-bottom: 0.12vw solid #533e99 ;
 }
 
 /*//Signup*/
@@ -1452,16 +1482,32 @@
     justify-content: center;
     margin-top: 3.1vw;
     font-family: myraid;
+
 }
-.signup form    
+
+.signup .form p
 {
-    height: fit-content;
+	color:red;
+}
+
+.signup .form 
+{
+	height: fit-content;
     font-size: 1vw;
     width: 40%;
-    text-align: center;
     color: #000;
 }
-.signup form h1
+
+.signup .form input
+{	
+	border:none;
+}
+
+.signup .heading
+{
+	height: fit-content;
+}
+.signup .form .heading h1
 {
     margin-top: 5%;
     font-size: 4vw;
@@ -1469,74 +1515,106 @@
     color: #fa6753;
 	letter-spacing: 1.25vw;   
 }
-.signup form h2
+.signup .form .heading h2
 {
     margin-top: 2%;
     font-size: 1.25vw;
     text-align: center;
     color: #8a898a;
 }
-.signup form h2 a
+.signup .form .heading h2 a
 {
     text-decoration: none;
     color:  #533e99;
 }
-.signup form input ,button
+.signup .fullname 
 {
-    border: none;
-    outline: none;
-
+	height: fit-content;
 }
 
-.signup form .full_name
+.signup .form .fullname .un
 {
-    margin-top: 2vw;
-    width:45%;
-    padding-bottom: 0.5vw;
-    border-bottom: 0.12vw solid #808080;
-}
-.signup form .name
-{
-    width: 45%;
-    margin-top: 1.8vw;
     border-bottom: 0.12vw solid #808080;
     padding-bottom: 0.3vw;
     outline: none;
-    font-size: 1.1vw;
+    font-size: 1.25vw;
+    width: 18vw;
+    margin-top:2vw;
     
 }
-.signup form h6
+.signup .email
 {
-    margin-top: 1.8vw;
+	height: fit-content;
+}
+
+.signup .form .email h6
+{
     float: left;
     font-size: 0.9vw;
     color:  #533e99;
 }
 
-.signup form .un
+.signup .form .email .un
 {
     width: 100%;
     border-bottom: 0.12vw solid #808080;
     padding-bottom: 0.3vw;
     outline: none;
-    margin-top: -1.25vw;
     font-size: 1.25vw;
 }
 
-.signup form #checkbox
+
+.signup .password
 {
-    position: absolute;
+	height: fit-content;
+}
+.signup .form .password .un
+{
+    border-bottom: 0.12vw solid #808080;
+    padding-bottom: 0.3vw;
+    outline: none;
+    font-size: 1.25vw;
+    width: 18vw;
+  
     
-    margin-top: 2.8vw;
-    background: #3d404e;
-    border: #7f83a2 0.1vw solid;
 }
-.signup form label{
-    margin-top: 2.5vw;
-    margin-left: 2.5vw;
-    text-align: left;
+.signup .dob
+{
+	height: fit-content;
 }
-.signup form button
+.signup .form .dob .name
+{
+    border-bottom: 0.12vw solid #808080;
+    padding-bottom: 0.3vw;
+    outline: none;
+    font-size: 1.25vw;
+    width: 18vw;
+    
+}
+.signup .checkbox
+{
+	height: fit-content;
+}
+
+.signup .form .checkbox input
+{
+    
+    margin-top:1vw;
+    margin-left:1vw;
+    transform: scale(1.5);
+    float: left;
+}
+.signup .form .checkbox label
+{
+    margin-left: 3vw;
+    margin-top: -1.5vw;
+}
+.signup .submit
+{
+	height: fit-content;
+	text-align: center;
+}
+.signup .form .submit button
 {
     
     padding: 0.6vw 3.7vw 0.6vw 3.7vw;
@@ -1545,7 +1623,6 @@
     border: none;
     background-color:#533e99 ;
     font-size: 1.8vw;
-    margin-top: 2.5vw;
     box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
 .signup form button:hover
@@ -1553,130 +1630,40 @@
     background-color:#533e99 ;
     opacity: 0.8;
 }
+.signup .links
+{
+	height: fit-content;
+	text-align: center;
+}
 
-.signup form p
+.signup .form .links p
 {
     color: #8a898a;
     font-size: 1.12vw;
-    margin-top: 1.2vw;
+    margin-top: 1vw;
 }
-.signup form img{
+.signup .form .links img{
     height: 2vw;
     width: 2vw;
-    margin: 0px 0.6vw 0px 0.6vw;
+    margin: 0px 0.8vw 0px 0.8vw;
 }
 
-.signup form input:focus
+.signup .form .fullname input:focus
 {
     border-bottom: 0.12vw solid #533e99 ;
 }
 
-/* Footer */
-
-.footer
+.signup .form .email input:focus
 {
-    height: fit-content;
-    margin-top: 7vw;
+    border-bottom: 0.12vw solid #533e99 ;
 }
 
-.footer .row1 
+.signup .form .password input:focus
 {
-	height: 6.0vw;
-	box-shadow: none;
-	align-content: center;
-
-}
-.footer .row1 .col1 img
-{
-    height: 2.5vw;
-    width: 8vw;
-    margin-left: 1.5vw;
-    margin-top: 1vw;
-    float: left;
-}
-.footer .row1 .col2 
-{
-    text-align: center;
-    margin: 0;
-}
-.footer .row1 .col2 img
-{
-	height: 3vw;
-	width: 3vw;
-	margin-top: 1vw;
-	opacity: 0.6;
-	transition: all .6s;
-}
-.footer .row1 .col2 img:hover
-{
-	opacity: 1;
+    border-bottom: 0.12vw solid #533e99 ;
 }
 
-.footer .row1 .col3 input
+.signup .form .dob input:focus
 {
-	width: 18vw;
-    height: 3vw;
-    font-size: 1.5vw;
-	text-align:center;
-	border:transparent;
-	border-bottom: 0.1vw solid #7b7b7b;
-	float: right;
-	margin-right: 1.5vw;
-    outline: none;
-    color:#fa6753;
-}
-.footer .row1 .col3 img
-{
-	height: 2.5vw;
-	width: 2.5vw;
-	float: right;
-    margin-top: 0.8vw;
-    margin-right: 0.5vw;
-    border-radius: 0%;
-
-}
-.footer .row2
-{
-	height: 6vw;
-	align-content: center;
-	margin-top: 1vw;
-}
-.footer .row2 .col1
-{
-    text-align: left;
-}
-.footer .row2 .col1 a
-{
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #7b7b7b;
-	margin-left: 1.5vw;
-	font-size: 0.9vw;
-
-}
-.footer .row2 .col1 a:hover
-{
-	color:#fd624d;
-}
-.footer .row2 .col2
-{
-	text-align:center;
-}
-.footer .row2 .col2 img
-{
-	height: 2vw;
-	width: 2vw;
-	margin-left: 0.5vw;
-
-}
-.footer .row2 .col2 img:hover
-{
-	opacity: 0.8;
-}
-.footer .row2 .col3 p
-{
-	color: #7b7b7b;
-    text-align: right;
-    font-size: 1vw;
-
+    border-bottom: 0.12vw solid #533e99 ;
 }
