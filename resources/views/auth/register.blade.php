@@ -1,16 +1,16 @@
 @extends('frontend.layouts.access-layout')
 @section('content')
-<div class="row">
+<div class="row signup">
     <form method="POST" action="{{ route('register') }}">
         <h1>SIGN UP</h1>
         <h2>Already a member ? <a href="{{route('login')}}"> SIGN IN</a></h2>
-        <input type="text" placeholder="First Name" class="first_name @error('name') is-invalid @enderror" value="{{ old('name') }}" style="float: left;" important>
+        <input type="text" placeholder="First Name" class="first_name @error('name') is-invalid @enderror  full_name" value="{{ old('name') }}" style="float: left;" important>
         @error('name')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>
             </span>
         @enderror
-        <input type="text" placeholder="Last Name" class="last_name" style="float: right;" important>
+        <input type="text" placeholder="Last Name" class="last_name full_name" style="float: right;" important>
         @error('name')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>

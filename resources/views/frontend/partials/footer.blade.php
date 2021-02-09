@@ -1,4 +1,4 @@
-<div class="row row8">
+<div class="row footer">
 
 
     <div class="row row1">
