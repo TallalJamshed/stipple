@@ -27,7 +27,7 @@
             <div class="col">
               <input type="password" placeholder="Password" class="un" important>
               <p>Error Message</p>
-              <a href=""><h5 style="font-size:1vw;">Forgot Password</h5></a>
+              <a href=""><h5 style="font-size:1vw;">Forgot Password?</h5></a>
             </div>
 
         </div>
