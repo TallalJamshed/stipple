@@ -268,39 +268,41 @@
 
             </div>
 
-    </div>
-    <script>
+    </div>  
+@endsection
+
+@section('scripts')
+<script>
          
 
-            $(document).ready(function () {
-                $("#follow-button").click(function () {
-                    if ($("#follow-button").text().trim() == "FOLLOW") {
-                        $("#follow-button").text('FOLLOWING');
-                        $("#follow-button").css({ 'background-color': '#ededed', 'color': ' #808080', 'border': '1px solid #8a898a' });
-                    } else {
-                        $("#follow-button").text('FOLLOW');
-                        $("#follow-button").css({ 'background': '#fd624d', 'color': 'white', 'border': '1px solid #fd624d' });
+    $(document).ready(function () {
+        $("#follow-button").click(function () {
+            if ($("#follow-button").text().trim() == "FOLLOW") {
+                $("#follow-button").text('FOLLOWING');
+                $("#follow-button").css({ 'background-color': '#ededed', 'color': ' #808080', 'border': '1px solid #8a898a' });
+            } else {
+                $("#follow-button").text('FOLLOW');
+                $("#follow-button").css({ 'background': '#fd624d', 'color': 'white', 'border': '1px solid #fd624d' });
 
-                    }
-                });
+            }
+        });
 
-                $('.card').click(function () {
+        $('.card').click(function () {
 
-                    $('#load').css({ 'display': 'none' });
-                    $('#load1').css({ 'display': 'block' });
+            $('#load').css({ 'display': 'none' });
+            $('#load1').css({ 'display': 'block' });
 
-                });
+        });
 
-                $(".h").click(function () {
-                    $(this).toggleClass('far');
-                    $(this).toggleClass('fas');
-                });
+        $(".h").click(function () {
+            $(this).toggleClass('far');
+            $(this).toggleClass('fas');
+        });
 
-            });
-
-
+    });
 
 
-        </script>
 
+
+</script>
 @endsection
