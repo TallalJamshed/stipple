@@ -1,5 +1,15 @@
 @extends('frontend.layouts.default-layout')
 @section('content')
+<style>
+  a img{
+    width:20%;
+    padding: 3px
+  }
+  a img:hover{
+    border:3px solid #533e99;
+    border-radius: 5px;
+  }
+</style>
 <div class="container-fluid stpple">
 
 
@@ -427,37 +437,35 @@
                 <div class="row row1">
                     <div class="col col1">
                         <h1>#<span style="color: #533e99;">STIPPPLE</h1> <h1 style="letter-spacing: 2px;">OFFICIAL INSTAGRAM</h1>
-    
-                    </div>
-                    
+                    </div>                  
                 </div>
 
+    <div id="instafeed"></div>
 
-
-                <div class="row row2">
-                    
-                        <img class="img-fluid" src="Images/i3.jpg" >
-                    
-                        <img class="img-fluid" src="Images/i3.jpg">
+                {{-- <div id="feed" class="row row2"> --}}
+                    {{-- @for ($i = 0; $i < 5; $i++)
+                      <img class="img-fluid" src="Images/i3.jpg" >  
+                    @endfor      --}}
+                        {{-- <img class="img-fluid" src="Images/i3.jpg">
                
                         <img class="img-fluid" src="Images/i3.jpg">
               
                         <img class="img-fluid" src="Images/i3.jpg">
                  
-                        <img class="img-fluid" src="Images/i3.jpg">
-                  
-
-
-                </div>
-                
+                        <img class="img-fluid" src="Images/i3.jpg"> --}}
+                {{-- </div> --}}
             </div>
-
-        </div>
-
-        
-       
-
-
-                    
+        </div>        
     </div>
+
+@endsection
+
+@section('scripts')
+<script type="text/javascript">
+  var feed = new Instafeed({
+              accessToken: 'IGQVJXZAFhmejBJYmRmMzg4ZAEdTc3JjWXhRSElUYmMyWVBQc3RZAMU81TzdLX0tvVVhrSUZAaZAE9LdkREUHRETHBiSUR4al9JWWtVd3FYUHFaUzNlWHZAka1Jha05xT1FLMGN0Q3d6Q05iNVlNZAV9FM01WaAZDZD',
+              limit: 5,
+            });
+  feed.run();
+</script>
 @endsection

@@ -31,12 +31,17 @@
                 <a href=""> Meetups </a>
                 <a href=""> Shop </a>
                 <a href=""> Jobs </a>
-
             </div>
 
             <div class="col-2 , col3">
-                
-                <button type="button" class="btn btn-primary" onclick="window.location.href='signin.html'"> SIGN IN</button>
+                @guest
+                    <a href="{{route('login')}}" class="btn btn-primary">SIGN IN</a>  
+                @else
+                    <button class="btn btn-primary " onclick="$('#logout-form').submit()">SIGN OUT</button>
+                    <form id="logout-form" action="{{route('logout')}}" method="POST">
+                        @csrf
+                    </form> 
+                @endguest
             </div>
 
         </div>
