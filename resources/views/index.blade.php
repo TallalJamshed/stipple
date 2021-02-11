@@ -1,11 +1,11 @@
 @extends('frontend.layouts.default-layout')
 @section('content')
 <style>
-  a img{
+  #instafeed a img{
     width:20%;
-    padding: 3px
+    padding: 3px;
   }
-  a img:hover{
+  #instafeed a img:hover{
     border:3px solid #533e99;
     border-radius: 5px;
   }
@@ -98,30 +98,79 @@
             <div class="col">
                  <h1>#<span style="color: #533e99;">PAST</span>MEETUPS</h1>
                  <p>Explore our past inspirational meetups.</p>
-
                  <div class="row inrow">
-                     <div class="col col1">
-              
-                       <div class="row">
-                        
-                          <h1>Hello Creative! Peshawar Meetup</h1>
-                          <h2>Peshawar,Pakistan</h2>
+
+                 <div class="col col1">
+                        <div class="card">
+                            <a href="#"><img  class="bc-img" src="Images/row4.jpg"></a>
+                            <div class="card1">
+                                <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
                         </div>
-                   
-                     </div>
-                     <div class="col col1">
-                     </div>
-                     <div class="col col1">
-                     </div>
-                 </div>
-                  <div class="row inrow">
-                     <div class="col col1">
-                     </div>
-                     <div class="col col1">
-                     </div>
-                     <div class="col col1">
-                     </div>
-                 </div>
+                    </div>
+
+                    <div class="col col1">
+                        <div class="card">
+                            <img class="bc-img" src="Images/row4.1.jpg">
+                            <div class="card1">
+                            <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col col1">
+                        <div class="card">
+                            <img class="bc-img" src="Images/row4.jpg">
+                            <div class="card1">
+                            <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="row inrow">
+
+                 <div class="col col1">
+                        <div  class="card">
+                            <a href="#"><img class="bc-img" src="Images/row4.1.jpg"></a>
+                            <div class="card1">
+                            <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col1">
+                        <div class="card">
+                            <img class="bc-img" src="Images/row4.jpg">
+                            <div class="card1">
+                            <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col col1">
+                        <div class="card">
+                            <img class="bc-img" src="Images/row4.1.jpg">
+                            <div class="card1">
+                            <h1 class="h1">Hello Creative ! Peshawar Meetup</h1>
+                                <p class="p">Peshawar Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
             </div>
         </div>
 
@@ -162,7 +211,7 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
-                            <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="Images/card2.jpg" alt="Card image cap">
 
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
@@ -185,7 +234,7 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
-                            <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="Images/card3.jpg" alt="Card image cap">
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
@@ -207,7 +256,7 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
-                            <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="Images/card4.jpg" alt="Card image cap">
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
@@ -227,14 +276,18 @@
                         </div>
                           </div>
                       </div>
-                      <div class="row">
+                      
+                    </div>
+                    <div class="carousel-item">
+                    <div class="row">
                           <div class="col">
-                                        <div class="card-deck">
+                               <div class="card-deck">
                           <div class="card" style="float: left;">
                             <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
+                            
                             <div class=" row">
                                 <div class="col">
                                     <p>John Doe</p>
@@ -243,7 +296,7 @@
                                     <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
                                 </div>
                                 <div class="col">
-                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;    margin-right: 4px;" height="1" width="1"></i>799</p>
+                                    <p style="float: right;"><i class="fas fa-heart" style="color:red;     margin-right: 4px;" height="1" width="1"></i>799</p>
                                 </div>
 
                             </div>
@@ -253,7 +306,8 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
-                            <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="Images/card2.jpg" alt="Card image cap">
+
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
@@ -275,7 +329,81 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
+                            <img class="card-img-top" src="Images/card3.jpg" alt="Card image cap">
+                            <div class="btnon">
+                              <button type="button" class="btn btn-primary">FOLLOW</button>
+                            </div>
+                            <div class=" row">
+                                <div class="col">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="col">
+                                    <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                </div>
+                                <div class="col">
+                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;     margin-right: 4px;" height="1" width="1"></i>799</p>
+                                </div>
+
+                            </div>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="col">
+                                        <div class="card-deck">
+                          <div class="card" style="float: left;">
+                            <img class="card-img-top" src="Images/card4.jpg" alt="Card image cap">
+                            <div class="btnon">
+                              <button type="button" class="btn btn-primary">FOLLOW</button>
+                            </div>
+                            <div class=" row">
+                                <div class="col">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="col">
+                                    <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                </div>
+                                <div class="col">
+                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;    margin-right: 4px;" height="1" width="1"></i>799</p>
+                                </div>
+
+                            </div>
+                            </div>
+                        </div>
+                          </div>
+                      </div>
+                      
+                     
+                    </div>
+                    <div class="carousel-item">
+                    <div class="row">
+                          <div class="col">
+                               <div class="card-deck">
+                          <div class="card" style="float: left;">
                             <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <div class="btnon">
+                              <button type="button" class="btn btn-primary">FOLLOW</button>
+                            </div>
+                            
+                            <div class=" row">
+                                <div class="col">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="col">
+                                    <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                </div>
+                                <div class="col">
+                                    <p style="float: right;"><i class="fas fa-heart" style="color:red;     margin-right: 4px;" height="1" width="1"></i>799</p>
+                                </div>
+
+                            </div>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="col">
+                                        <div class="card-deck">
+                          <div class="card" style="float: left;">
+                            <img class="card-img-top" src="Images/card2.jpg" alt="Card image cap">
+
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
@@ -297,7 +425,7 @@
                           <div class="col">
                                         <div class="card-deck">
                           <div class="card" style="float: left;">
-                            <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="Images/card3.jpg" alt="Card image cap">
                             <div class="btnon">
                               <button type="button" class="btn btn-primary">FOLLOW</button>
                             </div>
@@ -309,7 +437,29 @@
                                     <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
                                 </div>
                                 <div class="col">
-                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;     margin-right: 4px; " height="1" width="1"></i>799</p>
+                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;     margin-right: 4px;" height="1" width="1"></i>799</p>
+                                </div>
+
+                            </div>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="col">
+                                        <div class="card-deck">
+                          <div class="card" style="float: left;">
+                            <img class="card-img-top" src="Images/card4.jpg" alt="Card image cap">
+                            <div class="btnon">
+                              <button type="button" class="btn btn-primary">FOLLOW</button>
+                            </div>
+                            <div class=" row">
+                                <div class="col">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="col">
+                                    <p><i class="fas fa-star" style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                </div>
+                                <div class="col">
+                                   <p style="float: right;"><i class="fas fa-heart" style="color:red;    margin-right: 4px;" height="1" width="1"></i>799</p>
                                 </div>
 
                             </div>
@@ -317,36 +467,7 @@
                         </div>
                           </div>
                       </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="..." alt="Third slide">
-                      <div class="row">
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                      </div>
-                      <div class="row">
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="..." alt="Third slide">
-                      <div class="row">
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                      </div>
-                      <div class="row">
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                          <div class="col"></div>
-                      </div>
+                      
                     </div>
                   </div>
                  

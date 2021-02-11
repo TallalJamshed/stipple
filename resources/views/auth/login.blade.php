@@ -28,21 +28,21 @@
 
           <div class="row email">
               <div class="col">
-                {{-- <input type="password" placeholder="Password" class="un" important> --}}
+                {{-- <input type="password" placeholder="Password" class="un is-invalid" important> --}}
                 <input id="password" type="password" placeholder="Password" class="un @error('password') is-invalid @enderror" name="password" autocomplete="current-password">
-                {{-- <p>Error Message</p> --}}
+                {{-- <p class="Error-msg">Error Message</p> --}}
                 @error('password')
                     <span class="">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
-                <a href=""><h5 style="font-size:1vw;">Forgot Password</h5></a>
+                <a href=""><h5 style="font-size:1vw;">Forgot Password?</h5></a>
               </div>
           </div>
 
           <div class="row submit">
               <div class="col">
-                <input type="submit" value="SIGN IN" name="submit" class=" btn btn-primary">
+                <input type="submit" value="SIGN IN" name="submit" class=" signin-btn btn btn-primary">
               </div>
           </div>
         </form>

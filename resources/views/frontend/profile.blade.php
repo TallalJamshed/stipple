@@ -74,7 +74,7 @@
 
                     <div class="col">
                         <div class="card">
-                            <img src="Images/card.jpg">
+                            <img src="Images/card3.jpg">
                             <div class="card1">
                                 <h1>Print Design</h1>
                                 <p>05 Projects</p>
@@ -86,7 +86,7 @@
 
                     <div class="col">
                         <div class="card">
-                            <img src="Images/card.jpg">
+                            <img src="Images/card4.jpg">
                             <div class="card1">
                                 <h1>Animation</h1>
                                 <p>04 Projects</p>
@@ -147,7 +147,7 @@
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <img src="Images/card.jpg">
+                                        <img src="Images/card3.jpg">
                                         <div class="row items">
                                             <div class="col">
                                                 <p>John Doe</p>
@@ -164,7 +164,7 @@
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <img src="Images/card.jpg">
+                                        <img src="Images/card2.jpg">
                                         <div class="row items">
                                             <div class="col">
                                                 <p>John Doe</p>
@@ -186,11 +186,119 @@
                             </div>
 
                             <div class="carousel-item">
-                                2
+                            <div class="row r32">
+                                    <div class="col">
+                                        <img src="Images/card.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        style="color:red;     margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img src="Images/card3.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        style="color:red;     margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img src="Images/card2.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        onclick="myFunction(this)"
+                                                        style="color:red;  margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
 
                             </div>
                             <div class="carousel-item">
-                                3
+                            <div class="row r32">
+                                    <div class="col">
+                                        <img src="Images/card.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        style="color:red;     margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img src="Images/card3.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        style="color:red;     margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img src="Images/card2.jpg">
+                                        <div class="row items">
+                                            <div class="col">
+                                                <p>John Doe</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><i class="fas fa-star"
+                                                        style="color: #533e99; margin-right: 4px;"></i>4.5</p>
+                                            </div>
+                                            <div class="col">
+                                                <p style="float: right;"><i class="far fa-heart h"
+                                                        onclick="myFunction(this)"
+                                                        style="color:red;  margin-right: 4px;" height="1"
+                                                        width="1"></i>799</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
 

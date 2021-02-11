@@ -19,17 +19,17 @@
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
-              <p>Error Message</p>
+              <p class="Error-msg">Error Message</p>
             </div>
             <div class="col-md-6">
               {{-- <input type="text" placeholder="Last Name" class="un" style="float: right;"> --}}
-              <input id="last_name" placeholder="Last Name" type="text"  class="un is-invalid" name="last_name" value="{{ old('last_name') }}" style="float: left;" autocomplete="last_name">
+              <input id="last_name" placeholder="Last Name" type="text"  class="un is-invalid" name="last_name" value="{{ old('last_name') }}" style="float: right;" autocomplete="last_name">
               @error('first_name')
                   <span class="invalid-message">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
-              {{-- <p>Error Message</p> --}}
+              {{-- <p class="Error-msg">Error Message</p> --}}
             </div>
         </div>
 
@@ -43,7 +43,7 @@
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
-              <p>Error Message</p>
+              <p class="Error-msg">Error Message</p>
             {{-- </div> --}}
 
         </div>
@@ -60,19 +60,19 @@
             </div>
             <div class="col">
               {{-- <input type="password" placeholder="Confirm Password" class="un" style="float: right;"> --}}
-              <input id="password_confirmation" placeholder="Confirm Password" type="password"  class="un @error('password_confirmation') is-invalid @enderror" name="password_confirmation" value="{{ old('password_confirmation') }}" style="float: left;" autocomplete="password_confirmation">
+              <input id="password_confirmation" placeholder="Confirm Password" type="password"  class="un @error('password_confirmation') is-invalid @enderror" name="password_confirmation" value="{{ old('password_confirmation') }}" style="float: right;" autocomplete="password_confirmation">
               @error('password_confirmation')
                   <span class="">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
             </div>
-            <p>Error Message</p>
+            <p class="Error-msg"> Error Message</p>
         </div>
 
         <div class="row dob">
             <div class="col">
-              {{-- <input type="text" placeholder="Country" class="name" style="float: left;">  --}}
+              {{-- <input type="text" placeholder="Country" class="un" style="float: left;">  --}}
               <input id="country" placeholder="Country" type="text"  class="un @error('country') is-invalid @enderror" name="country" value="{{ old('country') }}" style="float: left;" autocomplete="country">
               @error('country')
                   <span class="">
@@ -81,31 +81,31 @@
               @enderror
             </div>
             <div class="col">
-              {{-- <input type="text" placeholder="Date Of Birth" class="name" style="float: right;"> --}}
-              <input id="date_of_birth" placeholder="Date Of Birth" type="text"  class="un @error('date_of_birth') is-invalid @enderror" name="date_of_birth" value="{{ old('date_of_birth') }}" style="float: left;" autocomplete="date_of_birth">
+              {{-- <input type="text" placeholder="Date Of Birth" class="un" style="float: right;"> --}}
+              <input id="date_of_birth" placeholder="Date Of Birth" type="text"  class="un @error('date_of_birth') is-invalid @enderror" name="date_of_birth" value="{{ old('date_of_birth') }}" style="float: right;" autocomplete="date_of_birth">
               @error('date_of_birth')
                   <span class="">
                       <strong>{{ $message }}</strong>
                   </span>
               @enderror
             </div>
-            <p>Error Message</p>
+            <p class="Error-msg">Error Message</p>
 
         </div>
 
         <div class="row checkbox">
             <div class="col">
               <input type="checkbox" id="checkbox" style="float: left;">
-              <label for="checkbox" >By clicking Create account, I agree that I have read and
+              <label for="checkbox" class="not-checked">By clicking Create account, I agree that I have read and
             accepted the Terms of Use and Privacy Policy.</label>
-            {{-- <p>Error Message</p> --}}
+            
             </div>
 
         </div>
 
         <div class="row submit">
             <div class="col">
-              <input class="btn btn-primary" type="submit" value="SIGN UP" name="signup">
+              <input class="signup-btn btn btn-primary" type="submit" value="SIGN UP" name="signup">
               {{-- <a class=" btn btn-primary" href="{{route('register')}}">SIGN UP</a> --}}
               {{-- <button type="submit" class=" btn btn-primary">SIGN UP</button> --}}
             </div>

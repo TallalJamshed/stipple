@@ -35,7 +35,7 @@
 
             <div class="col-2 , col3">
                 @guest
-                    <a href="{{route('login')}}" class="btn btn-primary">SIGN IN</a>  
+                    <a href="{{route('login')}}" class=" signin-btn btn btn-primary">SIGN IN</a>  
                 @else
                     <button class="btn btn-primary " onclick="$('#logout-form').submit()">SIGN OUT</button>
                     <form id="logout-form" action="{{route('logout')}}" method="POST">

@@ -160,17 +160,16 @@
 {
 	color:#fa6753 ;
 }
-.nav1 .col3 button
+.nav1 .col3 .signin-btn
 {
 	border-radius: 0vw;
 	border:#533e99;
 	font-size: 1vw;
 	background-color: #533e99;
-	height: 100%;
-	padding: 0 3vw 0 3vw;
+	padding: 1.5vw 3vw 1.5vw 3vw;
 	float: right;
 }
-.nav1 .col3 button:hover
+.nav1 .col3 .signin-btn:hover
 {
 	opacity: 0.8;
 }
@@ -364,34 +363,42 @@
 {
 	height: fit-content;
 }
-.stpple .row4 .col .inrow .col
+.stpple .row4 .col .inrow .col1
 {
 	height: 15.6vw;
-	border: 0.15vw solid white;
-	background-image: url(Images/row4.jpg);
-	background-size: cover;
+    margin: 0.15vw;
 	cursor: pointer;
+    overflow: hidden;
 }
-
-.stpple .row4 .col .inrow .col .row
+.stpple .row4 .col .inrow .col1 .card
 {
-
-	height: 100%;
-	background: rgba(83,62,153,0.5);
-	text-align:center;
-	opacity: 0;
-	transition: all 0.6s;
-	border: none;
-
+    height: 100%;
+    
+    cursor: pointer;
+    border: none;
+  
 }
-.stpple .row4 .col .inrow .col:hover .row
+.stpple .row4 .col .inrow .col1 .card .bc-img
 {
-	opacity: 1;
-
+    height: 100%;
+    width: 100%;
+    
+    
 }
-.stpple .row4 .col .inrow .col .row h1
+.stpple .row4 .col .inrow .col1 .card1
 {
-	font-size: 1.3vw;
+    height: 100%;
+    opacity:0;
+    position: absolute;
+    width: -webkit-fill-available;
+    text-align: center;
+    color: #fff;
+    transition: all .6s;
+    background: rgba(83,62,153,0.5);
+}
+.stpple .row4 .col .inrow .col1 .card1 .h1
+{
+    font-size: 1.3vw;
 	line-height: 13.7vw;
 	font-weight:normal;
 	letter-spacing: normal;
@@ -399,15 +406,18 @@
 	padding: 0;
 	margin: 0;
 }
-.stpple .row4 .col .inrow .col .row h2
+.stpple .row4 .col .inrow .col1 .card1 .p
 {
-	font-size: 1.1vw;
+    font-size: 1.1vw;
 	font-weight:normal;
 	letter-spacing: normal;
 	color: #fa6753;
 	margin-top: -6.2vw;
-
-
+}
+.stpple .row4 .col .inrow .col1 .card:hover .card1
+{
+    opacity: 1;
+    
 }
 .stpple .row5
 {
@@ -438,7 +448,7 @@
 }
 .stpple .row5 .carousel
 {
-	height:46.8vw;
+	height:23.4vw;
 	transition: 0s;
 	overflow: hidden;
 	margin-top: 1.9vw;
@@ -469,12 +479,14 @@
 	align-content: center;
 	border: none;
 	padding: 0.5vw;
-	
+	width: 100%;
 
 
 }
 .stpple .row5 .card img
 {
+   
+    
 	border: 0.6vw solid white;
     cursor: pointer;
     transition: 1s;
@@ -499,7 +511,7 @@
 {
 	
 	border-radius: 0px;
-	margin-top: 30%;
+	margin-top: 35%;
 	padding: 0.5vw 1.8vw 0.5vw 1.8vw;
 	align-content: center;
 	text-align: center;
@@ -664,7 +676,7 @@
 {
 	position: relative;
 	display: inline-flex;
-	margin-right: 0.6vw;
+	margin-right: 1vw;
 }
 
 
@@ -1356,7 +1368,7 @@
 
 }
 
-.signin .form p
+.signin .form .error-msg
 {
 	color:red;
 }
@@ -1416,7 +1428,7 @@
 .signin .form .email .un
 {
     width: 100%;
-
+    margin-bottom: 1.5vw;
     border-bottom: 0.12vw solid #808080;
     padding-bottom: 0.3vw;
     outline: none;
@@ -1436,7 +1448,7 @@
 	text-align: center;
     margin-top: 2vw;
 }
-.signin .form .submit button
+.signin .form .submit .signin-btn
 {
     
     padding: 0.6vw 3.7vw 0.6vw 3.7vw;
@@ -1447,7 +1459,7 @@
     font-size: 1.8vw;
     box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
-.signin form button:hover
+.signin form .signin-btn:hover
 {
     background-color:#533e99 ;
     opacity: 0.8;
@@ -1474,7 +1486,10 @@
 {
     border-bottom: 0.12vw solid #533e99 ;
 }
-
+.signin .form .email .is-invalid:focus
+{
+    border-bottom: 0.12vw solid red;
+}
 /*//Signup*/
 
 .signup
@@ -1485,11 +1500,14 @@
 
 }
 
-.signup .form p
+.signup .form .Error-msg
 {
 	color:red;
 }
-
+.signup .form .not-checked:active:focus
+{
+    color:red;
+}
 .signup .form 
 {
 	height: fit-content;
@@ -1509,7 +1527,7 @@
 }
 .signup .form .heading h1
 {
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 4vw;
     text-align: center;
     color: #fa6753;
@@ -1534,8 +1552,8 @@
 
 .signup .form .fullname .un
 {
-    border-bottom: 0.12vw solid #808080;
-    padding-bottom: 0.3vw;
+    border-bottom: 0.14vw solid #808080;
+    padding-bottom: 0.5vw;
     outline: none;
     font-size: 1.25vw;
     width: 18vw;
@@ -1557,8 +1575,8 @@
 .signup .form .email .un
 {
     width: 100%;
-    border-bottom: 0.12vw solid #808080;
-    padding-bottom: 0.3vw;
+    border-bottom: 0.14vw solid #808080;
+    padding-bottom: 0.5vw;
     outline: none;
     font-size: 1.25vw;
 }
@@ -1570,8 +1588,8 @@
 }
 .signup .form .password .un
 {
-    border-bottom: 0.12vw solid #808080;
-    padding-bottom: 0.3vw;
+    border-bottom: 0.14vw solid #808080;
+    padding-bottom: 0.5vw;
     outline: none;
     font-size: 1.25vw;
     width: 18vw;
@@ -1582,10 +1600,10 @@
 {
 	height: fit-content;
 }
-.signup .form .dob .name
+.signup .form .dob .un
 {
-    border-bottom: 0.12vw solid #808080;
-    padding-bottom: 0.3vw;
+    border-bottom: 0.14vw solid #808080;
+    padding-bottom: 0.5vw;
     outline: none;
     font-size: 1.25vw;
     width: 18vw;
@@ -1614,18 +1632,19 @@
 	height: fit-content;
 	text-align: center;
 }
-.signup .form .submit button
+.signup .form .submit .signup-btn
 {
     
     padding: 0.6vw 3.7vw 0.6vw 3.7vw;
     font-family: cera;
     border-radius: 0%;
     border: none;
+    margin-top: 2.5vw;
     background-color:#533e99 ;
     font-size: 1.8vw;
     box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
-.signup form button:hover
+.signup form .signup-btn:hover
 {
     background-color:#533e99 ;
     opacity: 0.8;
@@ -1650,22 +1669,22 @@
 
 .signup .form .fullname input:focus
 {
-    border-bottom: 0.12vw solid #533e99 ;
+    border-bottom: 0.14vw solid #533e99 ;
 }
 
 .signup .form .email input:focus
 {
-    border-bottom: 0.12vw solid #533e99 ;
+    border-bottom: 0.14vw solid #533e99 ;
 }
 
 .signup .form .password input:focus
 {
-    border-bottom: 0.12vw solid #533e99 ;
+    border-bottom: 0.14vw solid #533e99 ;
 }
 
 .signup .form .dob input:focus
 {
-    border-bottom: 0.12vw solid #533e99 ;
+    border-bottom: 0.14vw solid #533e99 ;
 }
 
 /* Footer */
@@ -1679,7 +1698,7 @@
 
 .footer .row1 
 {
-	height: 6.0vw;
+	height: 5.0vw;
 	box-shadow: none;
 	align-content: center;
 
@@ -1712,9 +1731,9 @@
 
 .footer .row1 .col3 input
 {
-	width: 18vw;
+	width: 14vw;
     height: 3vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
 	text-align:center;
 	border:transparent;
 	border-bottom: 0.1vw solid #7b7b7b;
