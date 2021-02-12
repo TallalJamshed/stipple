@@ -1516,10 +1516,10 @@
     color: #000;
 }
 
-.signup .form input
+/* .signup .form input
 {	
 	border:none;
-}
+} */
 
 .signup .heading
 {
@@ -1581,7 +1581,6 @@
     font-size: 1.25vw;
 }
 
-
 .signup .password
 {
 	height: fit-content;
@@ -1616,7 +1615,6 @@
 
 .signup .form .checkbox input
 {
-    
     margin-top:1vw;
     margin-left:1vw;
     transform: scale(1.5);
@@ -1634,7 +1632,6 @@
 }
 .signup .form .submit .signup-btn
 {
-    
     padding: 0.6vw 3.7vw 0.6vw 3.7vw;
     font-family: cera;
     border-radius: 0%;
@@ -1796,4 +1793,45 @@
     text-align: right;
     font-size: 1vw;
 
+}
+
+/******************* TALLAL JAMSHED STYLING *******************/
+.checkbox{
+    display: inline !important;
+}
+.input-error{
+    color:red;
+}
+.is-invalid{
+    border-bottom: 2px solid red !important;
+}
+.un{
+    border: none;
+    border-bottom: 0.14vw solid #808080;
+    padding-bottom: 0.5vw;
+    outline: none;
+    font-size: 1.25vw;
+    width: 18vw;
+}
+
+.email{
+    width: 100% !important;
+}
+
+.signup-btn
+{
+    color: white;
+    padding: 0.6vw 3.7vw 0.6vw 3.7vw;
+    font-family: cera;
+    border-radius: 0%;
+    border: none;
+    margin-top: 2.5vw;
+    background-color:#533e99 ;
+    font-size: 1.8vw;
+    box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
+}
+.signup-btn:hover
+{
+    background-color:#533e99 ;
+    opacity: 0.8;
 }

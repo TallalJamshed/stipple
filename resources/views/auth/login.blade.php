@@ -2,8 +2,8 @@
 @section('content')
 <div class="row signin">
 
-       <div class="row form">
-        <div class="row heading">
+       <div class="row form ">
+        <div class="row heading mb-5">
             <div class="col">
               <h1>SIGN IN</h1>
               <h2>Not a member yet ? <a href="{{route('register')}}"> SIGN UP</a></h2>
@@ -12,27 +12,27 @@
 
         <form action="{{route('login')}}" method="POST">
           @csrf
-          <div class="row email">
+          <div class="row email mb-4">
               <div class="col">
-                <h6>Email Address</h6>
+                {{-- <h6>Email Address</h6> --}}
                 {{-- <input type="email" placeholder="" class="un" important> --}}
-                <input id="email" type="email" class="un @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email">
+                <input id="email" type="email" placeholder="Email" class="un @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email">
                 {{-- <p>Error Message</p> --}}
                 @error('email')
-                    <span class="">
+                    <span class="input-error">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
               </div>
           </div>
 
-          <div class="row email">
+          <div class="row email mb-4">
               <div class="col">
                 {{-- <input type="password" placeholder="Password" class="un is-invalid" important> --}}
                 <input id="password" type="password" placeholder="Password" class="un @error('password') is-invalid @enderror" name="password" autocomplete="current-password">
                 {{-- <p class="Error-msg">Error Message</p> --}}
                 @error('password')
-                    <span class="">
+                    <span class="input-error">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
