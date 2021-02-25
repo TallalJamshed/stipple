@@ -78,7 +78,7 @@
             <input type="email" placeholder="Username" class="un"><br>
             <h6>Write your message</h6>
             <textarea name="comment" form="usrform">Write Here...</textarea><br>
-            <button class="btn btn-primary">SEND</button>
+            <a href="#" class="btn btn-primary send-btn">SEND</a>
         </form>
         
     </div>

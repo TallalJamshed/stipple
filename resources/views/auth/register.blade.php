@@ -12,7 +12,7 @@
 
     <form action="{{route('register')}}" method="POST">
       @csrf
-      <div class="row mb-4">
+      <div class="row mb-4 fullname">
         <div class="col-md-6">
           <input id="first_name" placeholder="First Name" type="text"  class="un @error('first_name') is-invalid @enderror" name="first_name" value="{{ old('first_name') }}" autocomplete="first_name">
           @error('first_name')
@@ -25,13 +25,13 @@
           <input id="last_name" placeholder="Last Name" type="text"  class="un @error('last_name') is-invalid @enderror" name="last_name" value="{{ old('last_name') }}" autocomplete="last_name">
           @error('last_name')
               <span class="input-error">
-                  <strong>{{ $message }}</strong>
+                  <strong style="float:left; margin-left:1.7vw;">{{ $message }}</strong>
               </span>
           @enderror
         </div>
       </div>
 
-      <div class="row mb-4">
+      <div class="row mb-4 email">
         <input id="email" placeholder="Email" type="text"  class="un email @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email">
         @error('email')
             <span class="input-error">
@@ -39,7 +39,7 @@
             </span>
         @enderror
       </div>
-      <div class="row mb-4">
+      <div class="row mb-4 password ">
         <div class="col-md-6">
           <input id="password" placeholder="Password" type="password"  class="un @error('password') is-invalid @enderror" name="password" value="{{ old('password') }}" autocomplete="password">
           @error('password')
@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <div class="row mb-4">
+      <div class="row mb-4 dob">
         <div class="col-md-6">
           <input id="country" placeholder="Country" type="text"  class="un @error('country') is-invalid @enderror" name="country" value="{{ old('country') }}" autocomplete="country">
           @error('country')
@@ -70,24 +70,24 @@
         <div class="col-md-6 text-end">
           <input id="date_of_birth" placeholder="Date Of Birth" type="date"  class="un @error('date_of_birth') is-invalid @enderror" name="date_of_birth" value="{{ old('date_of_birth') }}" autocomplete="date_of_birth">
           @error('date_of_birth')
-              <span class="input-error">
-                  <strong>{{ $message }}</strong>
+              <span class="input-error" >
+                  <strong style="float:left; margin-left:1.7vw;">{{ $message }}</strong>
               </span>
           @enderror
         </div>
       </div>
 
-      <div class="row mb-4">
+      <div class="row mb-4 checkbox">
         <div class="col">
-          <input type="checkbox" id="checkbox">
-          <span for="checkbox" class="not-checked">
+          <input class="" type="checkbox" id="checkbox">
+          <span for="checkbox" class="not-checked label">
             By clicking Create account, I agree that I have read 
             and accepted the Terms of Use and Privacy Policy.
           </span>
         </div>
       </div>
 
-      <div class="row text-center">
+      <div class="row text-center submit">
         <div class="col">
           <input class="signup-btn" type="submit" value="SIGN UP" name="signup">
         </div>

@@ -36,7 +36,7 @@
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
-                <a href=""><h5 style="font-size:1vw;">Forgot Password?</h5></a>
+                <a href=""><h5 style="font-size:1vw; margin-top:1.3vw;">Forgot Password?</h5></a>
               </div>
           </div>
 
