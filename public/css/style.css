@@ -277,6 +277,9 @@
 	background-color: #fa6753;
 	color: #fff;
 	font-size: 1.6vw;
+    outline: none;
+    border: none;
+    box-shadow: none;
 	height: 3.4vw;
 	width:16.5vw;
 	border: none;
