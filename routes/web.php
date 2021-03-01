@@ -25,6 +25,9 @@ Route::get('/aboutus', function () {
 Route::get('/profile', function () {
     return view('frontend.profile');
 });
+Route::get('/projects', function () {
+    return view('frontend.projects');
+});
 Route::get('/home', function () {
     return view('frontend.home');
 });

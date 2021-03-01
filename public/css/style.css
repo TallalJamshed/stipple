@@ -1849,3 +1849,606 @@
     background-color:#533f99 ;
     opacity: 0.8;
 } */
+
+/* Projects page */
+
+
+/* .projects div
+{
+ border:0.12vw solid black;
+} */
+.projects .ra
+{
+  margin-top: 1vw;
+  height:fit-content;
+}
+.projects .ra .ca
+{
+    height:fit-content;
+    text-align: center;
+    padding: 0.5vw;
+}
+.projects .ra .ca .links
+{
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 1vw;
+  padding: 0.5vw 1.8vw;
+  background-color: #ededed;
+  border-radius: 0.3vw;
+  margin: 0 0.1vw;
+  
+
+}
+.projects .ra .ca .links:focus
+{
+    background-color: #fa6753;
+    color: white;
+}
+
+.projects .rb
+{
+    margin-top: 3vw;
+    padding: 0 3vw;
+}
+.projects .rb .h1
+{
+	color: #fa6753;
+	font-size: 1.8vw;
+    text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.1vw;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.projects .rb .p
+{
+	color: #a4a4a4;
+	font-size: 1.7vw;
+	margin: 0;
+	padding: 0;
+    margin-bottom: 2vw;
+
+}
+.projects .rb .row
+{
+    margin-top: 1vw;
+}
+.projects .rb .row .card-deck
+{
+
+	align-content: center;
+	overflow: hidden;
+	height: 100%;
+
+
+	
+
+}
+
+.projects .rb .row .card 
+{
+	
+	overflow: hidden;
+	border-radius: 0px;
+	align-content: center;
+	border: none;
+	padding: 0.7vw;
+    width: -webkit-fill-available;
+	
+
+
+}
+.projects .rb .row .card img
+{
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0.6vw;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0.2vw 0.15vw;
+
+}
+.projects .rb .row .card .btnon
+{
+	height: 80%;
+    width: 95%;
+    --bs-gutter-x: 0rem;
+    position: absolute;
+    background: transparent;
+    text-align: center;
+    visibility:hidden;
+
+
+}
+
+.projects .rb .row .card .btnon .view-btn
+{
+	
+	border-radius: 0px;
+	margin-top: 30%;
+	padding: 0.5vw 2vw 0.5vw 2vw;
+	align-content: center;
+	text-align: center;
+	background-color: #5e4c99;
+	border: none;
+	font-size: 1.1vw;
+}
+.projects .rb .row .card .btnon .card-info
+{
+    font-size: 1vw;
+    margin-top: 25%;
+    width: 98%;
+    background-color: white;
+    padding: 0.5vw 0.8vw;
+    text-align: left;
+    font-weight: bolder;
+}
+.projects .rb .row .card:hover img
+{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0.6vw;
+
+}
+
+.projects .rb .row .card:hover .btnon
+{
+	transition:all 0.5s;
+	visibility: visible;
+    background-color: rgb(255, 255, 255,0.1);
+
+}
+.projects .rb .row .card .btn:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0.6vw;
+    background-color:#533f99 ;
+
+}
+.projects .rb .row .card .row
+{
+	
+	height: 2.5vw;
+	overflow: hidden;
+	margin: 0.5vw 0.5vw 0vw 0.8vw;
+
+
+
+}
+.projects .rb .row .card .row .col
+{
+
+	height: 100%;
+
+}
+.projects .row .card .row .col i
+{
+	float: left;
+	
+	margin-top: 0.6vw;
+}
+.projects .rb .row .card .row .col p
+{
+	font-size: 1vw;
+	font-weight: bold;
+	color:#666666;
+	line-height:2vw;
+
+
+}
+.projects .rb .btn-col 
+{
+    height: fit-content;
+    text-align: center;
+    padding: 0.5vw;
+}
+.projects .rb .btn-row .btn-col .showmore-btn
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding:0.5vw 1.5vw;
+    background-color: #533f99;
+    
+	
+}
+.projects .rb .btn-row .btn-col .showmore-btn:hover
+{
+    background-color: #31235e;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1vw;
+}
+
+.projects .rc 
+{
+    margin-top: 3vw;
+    padding: 0 3vw;
+
+}
+
+.projects .rc .rc1 h1
+{
+    color: #fa6753;
+	font-size: 1.8vw;
+    text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.1vw;
+	margin: 0;
+	padding: 0;
+}
+.projects .rc .rc1 .next-icon
+{
+    height: 3vw;
+    cursor: pointer;
+    float: right;
+}
+.projects .rc .rc2
+{
+    margin-top: 1vw;
+}
+.projects .rc .rc2 .slide-row .slide-col
+{
+    height: fit-content;
+    margin:0.5vw;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0.5vw;
+}
+.projects .rc .rc2 .slide-row .slide-col .img 
+{
+    height: 100%;
+    width: 40%;
+    float: left;
+    text-align: end;
+    padding: 0.5vw;
+}
+.projects .rc .rc2 .slide-row .slide-col .img img
+{
+    max-width: 80%;
+    border-radius: 50%;
+    margin-top: 1vw;
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part
+{
+    height: 100%;
+    width: 60%;
+    float: right;
+    padding: 1vw;
+
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part .h1
+{
+    font-size: 1vw;
+    font-weight: bolder;
+    margin-top: 1vw;
+
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part .h2
+{
+    font-size: 1.1vw;
+    color: #747171;
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part .cmnt
+{
+    color: #666161;
+    font-size: 1.3vw;
+    float: left;
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part .heart
+{
+    color:red; 
+    font-size: 1.1vw;
+    margin-left: 30%;
+    float: left;
+    
+}
+.projects .rc .rc2 .slide-row .slide-col .img-part .p
+{
+    color: #666161;
+    font-size: 1.2vw;
+    display: inline;
+    margin-left: 0.2vw;   
+}
+
+.projects .rc .rc2 .slide-row .slide-col .img-part #follow-button
+{
+    background-color: #fa6753;
+    font-size: 1vw;
+    border-radius: 0%;
+    border: 1px solid #fa6753;
+    outline: none;
+    box-shadow: none;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0.8vw;
+}
+
+
+.projects .rd 
+{
+    height:fit-content;
+    margin-top: 5vw;
+    
+}
+.projects .rd .col h1
+{
+	color: #fa6753;
+	font-size: 1.8vw;
+	font-weight: bold;
+	letter-spacing: 1.2vw;
+	margin: 0;
+	padding: 0 4vw 0 4vw;
+
+
+}
+.projects .rd .col .row
+{
+    
+    height: fit-content;
+    padding: 0 2vw 0 2vw;
+}
+.projects .rd .col .row .col
+{
+    margin:3vw;
+    height: 16vw;
+    
+}
+.projects .rd .col .row .col .card
+{
+    height: 100%;
+    width: -webkit-fill-available;
+    text-align: center;
+    color: #fff;
+    border: none;
+    
+    
+}
+.projects .rd .col .row .col .card img
+{
+    height: 100%;
+    max-width: 100%;
+    border-radius: 0.5vw;
+    border:0.12vw solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.2vw 0.15vw;
+    
+}
+.projects .rd .col .row .col .card .card1
+{
+    height: 100%;
+    
+    position: absolute;
+    width: -webkit-fill-available;
+    text-align: center;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(64, 64, 64, 0) 0%,
+    rgba(64, 64, 64, 0) 10%,
+    rgba(240, 235, 235, 1) 90%,
+    rgb(255, 251, 251,1) 100%
+);
+
+
+}
+.projects .rd .col .row .col .card .card1 h2
+{
+    font-size: 1vw;
+    color: #fff;
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #fa6753;
+    padding: 0.3vw 1.2vw 0.3vw 1.2vw;
+    float: right;
+    margin: 1vw;
+    
+}
+.projects .rd .col .row .col .card .card1 .details
+{
+    width: 60%;
+    height: -webkit-fill-available;
+    text-align: left;
+    padding: 1vw;
+}
+.projects .rd .col .row .col .card .card1 .details h3
+{
+    color: black;
+    text-transform: uppercase;
+    margin-top: 60%;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.projects .rd .col .row .col .card .card1 .details h4
+{
+    font-size: 1vw;
+    color: #3f3f3f;
+}
+.projects .rd .btn-col
+{
+    text-align: center;
+    padding: 0.5vw;
+}
+.projects .rd .btn-row .btn-col .showmore-btn
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 0;
+    text-transform: uppercase;
+    padding:0.5vw 1.5vw;
+    background-color: #533f99;
+    
+	
+}
+.projects .rd .btn-row .btn-col .showmore-btn:hover
+{
+    background-color: #31235e;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1vw;
+}
+
+/* Home Page */
+/* .home div
+{
+    border: 2px solid black;
+} */
+.home .r1
+{
+    height: fit-content;
+    margin-bottom: 1vw;
+}
+.home .r1 .left
+{
+    background-image: url(../Images/home-left.jpg);
+    background-size: cover;
+}
+.home .r1 .right
+{
+    background-color: #31235e;
+    padding: 1vw;
+}
+.home .r1 .right .heading
+{
+    padding: 0 4vw;
+    margin-top: 5vw;
+}
+.home .r1 .right .heading h1
+{
+    color: #fff;
+	font-size: 1.4vw;
+    text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1vw;
+	margin: 0;
+	padding: 0;
+}
+.home .r1 .right .heading p
+{
+    color: #fff;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+}
+.home .r1 .right .events
+{
+    margin-top: 1vw;
+    color: white;
+}
+.home .r1 .right .events .h1
+{
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 0 4vw;
+    margin-bottom: 1.5vw;
+}
+.home .r1 .right .events .event 
+{
+    border-left: 0.3vw solid #31235e;
+    padding: 0.5vw 0;
+    
+    
+}
+.home .r1 .right .events .event:hover
+{
+    background-color: rgb(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.home .r1 .right .events .event .event-det
+{
+    padding: 0vw 5vw;
+    border-left: 0.4vw solid transparent ;
+}
+.home .r1 .right .events .event:hover .event-det
+{
+    border-left: 0.4vw solid #fa6753 ;
+}
+.home .r1 .right .events .event .event-det .event-name
+{
+    font-size: 1.5vw;
+    border-bottom: 0.12vw solid transparent;
+    width: fit-content;
+}
+.home .r1 .right .events .event:hover .event-name
+{
+    border-bottom: 0.12vw solid white;
+}
+.home .r1 .right .events .event .event-det .price-tag
+{
+    width: min-content;
+    float: left;
+    font-size: 1.5vw;
+    padding: 0 1.4vw;
+    border-bottom: 0.12vw solid #31235e;
+    background-color:#fa6753;
+}
+.home .r1 .right .events .event .h4
+{
+    font-size: 1.3vw;
+}
+.home .r1 .right .events .btn-row
+{
+    margin-top: 2vw;
+    padding: 0vw 5vw;
+}
+.home .r1 .right .events .btn-row .next-btn img
+{
+    max-width: 10%;
+}
+.home .row4 .col h1
+{
+	color: #fa6753;
+	font-size: 2vw;
+	font-weight: bold;
+	margin-left: 4%;
+    margin-bottom: 2vw;
+	letter-spacing: 1.1vw;
+
+}
+
+.home .r4
+{
+    padding: 0 20%;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.home .r4 h1
+{
+    color: #533f99;
+    font-size: 1.5vw;
+    padding: 0 4vw;
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+.home .r4 p
+{
+    padding: 0 20%;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+}
+.home .r4 .btn-col
+{
+    padding: 0.5vw;
+}
+.home .r4 .btn-row .btn-col .showmore-btn
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 0;
+    text-transform: uppercase;
+    padding:0.5vw 1.5vw;
+    background-color: #533f99;
+    
+	
+}
+.home .r4 .btn-row .btn-col .showmore-btn:hover
+{
+    background-color: #31235e;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1vw;
+    
+}
+.home .rb .h1
+{
+    margin-bottom: 2vw;
+
+}
