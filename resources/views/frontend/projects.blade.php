@@ -459,7 +459,7 @@
                         </div>
                           </div>
                           <div class="col">
-                                        <div class="card-deck">
+                          <div class="card-deck">
                           <div class="card" style="float: left;">
                             <img class="card-img-top" src="Images/card.jpg" alt="Card image cap">
                             <div class="btnon">

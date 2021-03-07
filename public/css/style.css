@@ -305,13 +305,12 @@
 	align-content:center;
 	position: absolute;
 	top: 85%;
-	right: 2.5%;
+	right: 1.5%;
 
 }
 .stpple .row2 .col .carousel-control-next img
 {
-	height: 3vw;
-	width: 3vw;
+	max-width: 130%;
 }
 .stpple .row3 
 {
@@ -404,7 +403,7 @@
     text-align: center;
     color: #fff;
     transition: all .6s;
-    background: rgba(83,62,153,0.5);
+    background: rgba(55, 40, 107, 0.8);
 }
 .stpple .row4 .col .inrow .col1 .card1 .h1
 {
@@ -456,6 +455,24 @@
 	padding: 0;
 
 }
+.stpple .row5 .row1 .col2
+{
+	height: 100%;
+	overflow: hidden;
+	text-align:right;
+	
+}
+
+
+
+
+.stpple .row5 .row1 .col2 .carousel-control-prev
+{
+	position: relative;
+	display: inline-flex;
+	margin-right: 1vw;
+}
+
 .stpple .row5 .carousel
 {
 	height:23.4vw;
@@ -531,7 +548,7 @@
 }
 .stpple .row5 .card:hover img
 {
-	opacity: 0.8;
+	opacity: 0.6;
 	box-shadow: rgba(0, 0, 0, 0.54) 0px 0px 0.6vw;
 
 }
@@ -1150,7 +1167,7 @@
 .profile .b .bc2 .r2 .col .card
 {
     height: 100%;
-    background: rgba(83,62,153,0.5);
+    background: rgba(83,62,153,0.8);
     cursor: pointer;
     border: none;
   
@@ -1185,7 +1202,7 @@
 }
 .profile .b .bc2 .r2 .col .card:hover .card1
 {
-    background: rgba(50,38,91,0.6);
+    background: rgba(50,38,91,0.7);
     
 }
 .profile .b .bc2 .r3
@@ -1385,11 +1402,15 @@
 .signin
 {
     justify-content: center;
-    margin-top: 3.1vw;
     font-family: myraid;
 
 }
-
+.signin .signin-img
+{
+    background-image: url(../Images/signin-img.jpg);
+    background-size:contain;
+    height: 49.3vw;
+}
 .signin .form .error-msg
 {
 	color:red;
@@ -1526,11 +1547,15 @@
 .signup
 {
     justify-content: center;
-    margin-top: 3.1vw;
     font-family: myraid;
 
 }
-
+.signup .signup-img
+{
+    background-image: url(../Images/signup-img.jpg);
+    background-size: cover;
+    height: 49.3vw;
+}
 .signup .form .Error-msg
 {
 	color:red;
@@ -1539,11 +1564,21 @@
 {
     color:red;
 }
+.signup .signup-form .form-row
+{
+    justify-content: center;
+}
+.signup .back-btn
+{
+    max-width: 50%;
+    margin: 2vw 0 0 1vw;
+}
 .signup .form 
 {
 	height: fit-content;
+    margin-top: 3vw;
     font-size: 1vw;
-    width: 40%;
+    width: 50%;
     color: #000;
 }
 
@@ -1559,15 +1594,15 @@
 .signup .form .heading h1
 {
     margin-top: 3%;
-    font-size: 4vw;
+    font-size: 2.5vw;
     text-align: center;
     color: #fa6753;
-	letter-spacing: 1.25vw;   
+	letter-spacing: 1vw;   
 }
 .signup .form .heading h2
 {
-    margin-top: 2%;
-    font-size: 1.25vw;
+    margin-top: 1%;
+    font-size: 1vw;
     text-align: center;
     color: #a4a4a4;
 }
@@ -1582,8 +1617,8 @@
     border-bottom: 0.12vw solid #a4a4a4;
     padding-bottom: 0.5vw;
     outline: none;
-    font-size: 1.25vw;
-    width: 18vw;
+    font-size: 1vw;
+    width: 14vw;
   
     
 }
@@ -1629,12 +1664,13 @@
 .signup .checkbox
 {
 	height: fit-content;
+    padding:0 1vw;
 }
 
 .signup .form .checkbox input
 {
     
-    transform: scale(1.5);
+    transform: scale(1.3);
     float: left;
     margin-top: 1vw;
     margin-right: 1vw;
@@ -1642,12 +1678,14 @@
 .signup .form .checkbox .label
 {
     margin-top: -1.5vw;
+    font-size: 0.7vw;
 }
 
 .signup .form .input-error
 {
     color:red;
     Padding-left:0.1vw;
+    font-size: 0.8vw;
     text-align: left;
 }
 
@@ -1663,14 +1701,14 @@
 .signup .form .submit .signup-btn
 {
     color: white;
-    padding: 0.6vw 3.7vw 0.6vw 3.7vw;
+    padding: 0.5vw 2.5vw;
     font-family: cera;
     border-radius: 0%;
     border: none;
     outline: none;
-    margin-top: 2.5vw;
+    margin-top: 1vw;
     background-color:#533f99 ;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
 .signup form .text-center .signup-btn:hover
@@ -1687,8 +1725,8 @@
 .signup .form .links p
 {
     color: #a4a4a4;
-    font-size: 1.12vw;
-    margin-top: 1vw;
+    font-size: 1vw;
+    margin-top: 0.5vw;
 }
 .signup .form .links img{
     height: 2vw;

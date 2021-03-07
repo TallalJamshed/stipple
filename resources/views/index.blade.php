@@ -25,7 +25,7 @@
                             <div class="carousel-item active">
                             <div class="caption">
                             <h2>Marketplace for the <span style="color:#fa6753; font-family: rockstar; ">Designers</span></h2>
-                            <p>Hunderd of agencies use Strippple to hire talent.</p>
+                            <p>Hunderd of agencies use Stippple to hire talent.</p>
                             <button type="button" class="btn btn-primary">HIRE A DESIGNER</button>
                             <h5>#DESIGNERS HUB</h5>
                             </div>
@@ -177,9 +177,22 @@
 
 
  <div class="row row5">
-
-            <h1 class="h1">#<span style="color: #533e99;">TOP</span>PORTFOLIOS</h1>
+            <div class="row row1">
+              <div class="col-10">
+              <h1 class="h1">#<span style="color: #533e99;">TOP</span>PORTFOLIOS</h1>
                  <p class="p">Explore   &amp; get Inspired With Projects Made By Our <span style="color: #533e99;"> Stippplers. </span></p>
+              </div>
+              <div class="col-2 col2">
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev" style="max-width: 130%;">
+                        <img src="Images/left.png" style="max-width: 130%; ">
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next" style="max-width: 130%;">
+                      <img src="Images/right.png" style="max-width: 130%; ">
+                      </a>
+                   </div>
+            </div>
+
+            
 
                  <div id="carouselExampleControls2" class="carousel car slide" data-interval="false">
                   <div class="carousel-inner">
@@ -476,14 +489,7 @@
                  <div class="row row2">
                     <div class="col-10 col1">
                       <button type="button" class="btn btn-primary btn1">STIPPLE NOW</button></div>  
-                      <div class="col-2 col2">
-                    <a class="carousel-control-prev" style="max-width: 130%;" href="#carouselExampleControls2" role="button" data-slide="prev">
-                   <img src="Images/left.png" style=" max-width: 130%;">
-                  </a>
-                  <a class="carousel-control-next " style="max-width: 130%;" href="#carouselExampleControls2" role="button" data-slide="next">
-                 <img src="Images/right.png"  style="margin-left: 0.1vw; max-width: 130%;">
-                  </a>
-                     </div>         
+                               
                  </div>
         </div>
 

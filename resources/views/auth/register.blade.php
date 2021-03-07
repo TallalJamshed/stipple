@@ -1,9 +1,21 @@
 @extends('frontend.layouts.access-layout')
 @section('content')
-
-<div class="row signup">
+<div class="container-fluid signup">
+  <div class="row">
+    <div class="col-5 signup-img">
+      <img class="back-btn" src="Images/stipple4.png" alt="">
+    </div>
+    <div class="col-7 signup-form">
+      <div class="row">
+      <div class="col-1">
+      <a href="./"><img class="back-btn" src="Images/left.png" alt=""></a>
+      </div>
+      </div>
+      
+      
+    <div class="row form-row">
   <div class="row form">
-    <div class="row heading mb-5">
+    <div class="row heading mb-3">
       <div class="col">
         <h1>SIGN UP</h1>
         <h2>Already a member ? <a href="{{route('login')}}">SIGN IN</a></h2>
@@ -25,7 +37,7 @@
           <input id="last_name" placeholder="Last Name" type="text"  class="un @error('last_name') is-invalid @enderror" name="last_name" value="{{ old('last_name') }}" autocomplete="last_name">
           @error('last_name')
               <span class="input-error">
-                  <strong style="float:left; margin-left:1.7vw;">{{ $message }}</strong>
+                  <strong style="float:left; margin-left:0.5vw;">{{ $message }}</strong>
               </span>
           @enderror
         </div>
@@ -71,7 +83,7 @@
           <input id="date_of_birth" placeholder="Date Of Birth" type="date"  class="un @error('date_of_birth') is-invalid @enderror" name="date_of_birth" value="{{ old('date_of_birth') }}" autocomplete="date_of_birth">
           @error('date_of_birth')
               <span class="input-error" >
-                  <strong style="float:left; margin-left:1.7vw;">{{ $message }}</strong>
+                  <strong style="float:left; margin-left:0.5vw;">{{ $message }}</strong>
               </span>
           @enderror
         </div>
@@ -103,5 +115,8 @@
     </div>
   </div>
 </div>
+    </div>
+</div>
+
 
 @endsection

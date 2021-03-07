@@ -1,14 +1,26 @@
 @extends('frontend.layouts.access-layout')
 @section('content')
-<div class="row signin">
-
-       <div class="row form ">
-        <div class="row heading mb-5">
-            <div class="col">
-              <h1>SIGN IN</h1>
-              <h2>Not a member yet ? <a href="{{route('register')}}"> SIGN UP</a></h2>
-            </div>
-        </div>
+<div class="container-fluid signup signin">
+  <div class="row">
+    <div class="col-5 signin-img">
+      <img class="back-btn" src="Images/stipple4.png" alt="">
+    </div>
+    <div class="col-7 signup-form">
+      <div class="row">
+      <div class="col-1">
+      <a href="./"><img class="back-btn" src="Images/left.png" alt=""></a>
+      </div>
+      </div>
+      
+      
+    <div class="row form-row">
+  <div class="row form">
+    <div class="row heading mb-3">
+      <div class="col">
+        <h1>SIGN IN</h1>
+        <h2>Not a member yet ? <a href="{{route('register')}}">SIGN UP</a></h2>
+      </div>
+    </div>
 
         <form action="{{route('login')}}" method="POST">
           @csrf
@@ -59,6 +71,6 @@
       </div>
 
 
-
+    
      </div>
 @endsection
