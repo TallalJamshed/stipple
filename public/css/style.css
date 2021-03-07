@@ -1408,7 +1408,7 @@
 .signin .signin-img
 {
     background-image: url(../Images/signin-img.jpg);
-    background-size:contain;
+    background-size:cover;
     height: 49.3vw;
 }
 .signin .form .error-msg
@@ -1503,12 +1503,14 @@
 .signin .form .submit .signin-btn
 {
     
-    padding: 0.6vw 3.7vw 0.6vw 3.7vw;
+    color: white;
+    padding: 0.5vw 2.5vw;
     font-family: cera;
     border-radius: 0%;
     border: none;
+    outline: none;
     background-color:#533f99 ;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     box-shadow: rgba( 0, 0, 0, 0.44) 0px 0px 1.2vw;
 }
 .signin form .signin-btn:hover
